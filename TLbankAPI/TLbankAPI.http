@@ -1,0 +1,6 @@
+@TLbankAPI_HostAddress = http://localhost:5237
+
+GET {{TLbankAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

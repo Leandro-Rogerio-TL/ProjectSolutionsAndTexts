@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLbankServices", "TLbankServices\TLbankServices.csproj", "{748994B7-4D16-4393-9C61-F36522B0FBF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLbankEntities", "TLbankEntities\TLbankEntities.csproj", "{E9F1E787-100E-415C-948F-806DD4A6754A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLbankAPI", "TLbankAPI\TLbankAPI.csproj", "{4D8E616C-71DE-4925-B696-D27E8DD682EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLbankRepositories", "TLbankRepositories\TLbankRepositories.csproj", "{7E51436D-B962-4CC3-86CD-42FFCF827BC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLbankInfra", "TLbankInfra\TLbankInfra.csproj", "{57D46DFF-B22F-4EDD-828B-F7D82E942D61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLbankTestesUnit", "TLbankTestesUnit\TLbankTestesUnit.csproj", "{301B86F5-98FF-4EBC-95BA-9F295DEA5470}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{748994B7-4D16-4393-9C61-F36522B0FBF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{748994B7-4D16-4393-9C61-F36522B0FBF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{748994B7-4D16-4393-9C61-F36522B0FBF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{748994B7-4D16-4393-9C61-F36522B0FBF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9F1E787-100E-415C-948F-806DD4A6754A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9F1E787-100E-415C-948F-806DD4A6754A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9F1E787-100E-415C-948F-806DD4A6754A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9F1E787-100E-415C-948F-806DD4A6754A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D8E616C-71DE-4925-B696-D27E8DD682EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D8E616C-71DE-4925-B696-D27E8DD682EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D8E616C-71DE-4925-B696-D27E8DD682EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D8E616C-71DE-4925-B696-D27E8DD682EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E51436D-B962-4CC3-86CD-42FFCF827BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E51436D-B962-4CC3-86CD-42FFCF827BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E51436D-B962-4CC3-86CD-42FFCF827BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E51436D-B962-4CC3-86CD-42FFCF827BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D46DFF-B22F-4EDD-828B-F7D82E942D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D46DFF-B22F-4EDD-828B-F7D82E942D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D46DFF-B22F-4EDD-828B-F7D82E942D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D46DFF-B22F-4EDD-828B-F7D82E942D61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301B86F5-98FF-4EBC-95BA-9F295DEA5470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301B86F5-98FF-4EBC-95BA-9F295DEA5470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301B86F5-98FF-4EBC-95BA-9F295DEA5470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301B86F5-98FF-4EBC-95BA-9F295DEA5470}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
