@@ -4,5 +4,5 @@ namespace TLbankServices.Interfaces;
 
 public interface ITransferenciaService
 {
-    public Task Executar(CriarTransferenciaDTO transferencia);
+    public Task<string> Executar(CriarTransferenciaDTO transferencia);
 }

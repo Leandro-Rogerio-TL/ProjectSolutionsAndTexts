@@ -1,6 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
 using TLbankServices.Interfaces;
-using TLbankServices.Implamentations;
+using TLbankServices.Implementations;
 
 namespace TLbankServices.Configurations;
 

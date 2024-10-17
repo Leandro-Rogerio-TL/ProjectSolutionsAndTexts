@@ -2,9 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TLbankEntities\TLbankEntities.csproj" />
-    <ProjectReference Include="..\TLbankRepositories\TLbankRepositories.csproj" />
-    <ProjectReference Include="..\TLbankInfra\TLbankInfra.csproj" />
-    <ProjectReference Include="..\TLbankGateways\TLbankGateways.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
@@ -14,7 +11,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.2" />
   </ItemGroup>
 

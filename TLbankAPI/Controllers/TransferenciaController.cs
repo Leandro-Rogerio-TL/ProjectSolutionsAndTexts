@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using TLbankServices.DTOs;
 using TLbankServices.Interfaces;
@@ -18,8 +17,8 @@ namespace TLbankAPI.Controllers;
         [HttpPost("transferir")]
         public async Task<IActionResult> Transferir([FromBody]CriarTransferenciaDTO transferencia)
         {
-            await _service.Executar(transferencia);
-            return Ok();
+            var mensagem = await _service.Executar(transferencia);
+            return Ok(mensagem);
         }
 
     }

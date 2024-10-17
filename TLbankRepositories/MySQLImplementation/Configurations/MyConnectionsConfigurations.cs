@@ -3,7 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using TLbankRepositories.Contexts;
 
-namespace TLbankRepositories.MySQLRepository.Configurations;
+namespace TLbankRepositories.MySQLImplementantion.Configurations;
 
 public static partial class MyConfigurations
 {

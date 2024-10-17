@@ -1,7 +1,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using TLbankRepositories.Interfaces;
 
-namespace TLbankRepositories.MySQLRepository.Configurations;
+namespace TLbankRepositories.MySQLImplementantion.Configurations;
 
 public static partial class MyConfiguration
 {

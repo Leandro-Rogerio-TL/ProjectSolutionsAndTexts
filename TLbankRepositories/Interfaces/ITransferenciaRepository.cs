@@ -4,5 +4,5 @@ namespace TLbankRepositories.Interfaces;
 
 public interface ITransferenciaRepository
 {
-    public Task LancarAsync(Transferencia transferencia);
+    public Task AddTrasacaoAsync(Transferencia transferencia);
 }

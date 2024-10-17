@@ -1,15 +1,17 @@
+using TLbankGateways.Configurations;
 using TLbankInfra.ExceptionsFilters;
-using TLbankRepositories.MySQLRepository.Configurations;
+using TLbankRepositories.MySQLImplementantion.Configurations;
 using TLbankServices.AutoMapper.Configurations;
 using TLbankServices.Configurations;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddMyAutomapper();
 builder.Services.AddMyServices();
 builder.Services.AddMyRepositories();
+builder.Services.AddMyGateways();
 builder.Services.AddMyConnection(builder.Configuration);
-builder.Services.AddMyAutomapper();
 
 builder.Services.AddControllers(opt => 
     {

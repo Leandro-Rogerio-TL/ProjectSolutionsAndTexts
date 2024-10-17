@@ -3,7 +3,7 @@ using TLbankEntities.Entities;
 using TLbankRepositories.Contexts;
 using TLbankRepositories.Interfaces;
 
-namespace TLbankRepositories.MySQLRepository;
+namespace TLbankRepositories.MySQLImplementantion;
 
 public class ContaRepository : IContaRepository
 {
@@ -16,7 +16,6 @@ public class ContaRepository : IContaRepository
 
     public async Task<ContaBase?> BuscaPorIdAsync(long numConta)
     {
-        throw new NotImplementedException();
-        //return await _context.Contas.FirstOrDefaultAsync(c => c.Numero == numConta);
+        return await _context.Contas.FirstOrDefaultAsync(c => c.Numero == numConta);
     }
 }

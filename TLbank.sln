@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLbankInfra", "TLbankInfra\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLbankTestesUnit", "TLbankTestesUnit\TLbankTestesUnit.csproj", "{301B86F5-98FF-4EBC-95BA-9F295DEA5470}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLbankGateways", "TLbankGateways\TLbankGateways.csproj", "{6ACC5B64-DFDB-4E54-878B-4D530AC6F49C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{301B86F5-98FF-4EBC-95BA-9F295DEA5470}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{301B86F5-98FF-4EBC-95BA-9F295DEA5470}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{301B86F5-98FF-4EBC-95BA-9F295DEA5470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACC5B64-DFDB-4E54-878B-4D530AC6F49C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACC5B64-DFDB-4E54-878B-4D530AC6F49C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACC5B64-DFDB-4E54-878B-4D530AC6F49C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACC5B64-DFDB-4E54-878B-4D530AC6F49C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using TLbankRepositories.Contexts;
-using TLbankRepositories.MySQLRepository;
+using TLbankRepositories.MySQLImplementantion;
 using TLbankServices.DTOs;
-using TLbankServices.Implamentations;
+using TLbankServices.Implementations;
 
 namespace TLbankTestesUnit;
 
@@ -15,7 +15,7 @@ public class TransferenciaServiceTransferir
     {
         //arrange
         var context = new TLbankContext(new DbContextOptions<TLbankContext>());
-        var transRepo = new TransferenciaRepository();
+        var transRepo = new TransferenciaRepository(context);
         var contaRepo = new ContaRepository(context);
         var transferencia = new CriarTransferenciaDTO()
         {
@@ -23,7 +23,7 @@ public class TransferenciaServiceTransferir
             BeneficiarioContaNumero = 2,
             Valor = valor
         };
-        var transferir = new TransferenciaService(transRepo, contaRepo);
+        var transferir = new TransferenciaService();
 
         //act
         //var result = await transferir.Executar(transferencia);

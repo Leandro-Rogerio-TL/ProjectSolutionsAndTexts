@@ -20,8 +20,4 @@ public class Transferencia : MyEntityBase
     [Required]
     [DataType(DataType.DateTime)]
     public DateTime DataHora { get; set; } = DateTime.Now;
-    public void Transferir()
-    {
-
-    }
 }
